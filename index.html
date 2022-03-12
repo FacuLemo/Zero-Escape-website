@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zero Escape</title>
+    <link rel="icon" type="imagen/jpg" href="AB_bracelet.png">
+    <link rel="stylesheet" href="styles.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    
+    <header>
+            <h1 id="titulo" class="bg-danger"> <img src="zero.png" alt="zero" height="80px"> Zero Escape Trilogy</h1>
+    </header>
+    <nav class="textocentrado">
+       
+        <a class="links" href="https://zeroescape.fandom.com/wiki/Zero_Escape:_Nine_Hours,_Nine_Persons,_Nine_Doors">999</a>
+        <a class="links" href="https://zeroescape.fandom.com/wiki/Zero_Escape:_Virtue%27s_Last_Reward">Virtue's Last Reward</a>
+        <a class="links" href="https://zeroescape.fandom.com/wiki/Zero_Escape:_Zero_Time_Dilemma">Zero Time Dilemma</a>
+        <a class="links" href="">Personajes</a>
+        <a class="links" href="https://en.wikipedia.org/wiki/Kotaro_Uchikoshi">Sobre el Autor</a>
+        
+    </nav>
+    <br>
+    <br>
+    <section>
+        <article class="container">
+            <h2>¿Qué es Zero Escape?</h3>
+            <p class="justificado">Zero Escape es una trilogía de videojuegos japoneses de estilo puzzle y novela visual que cuenta con elementos de misterio, terror psicológico, ciencia ficción, suspenso y un poco comedia para alivianar la atmósfera de vez en cuando. Están desarrollados por Spike Chunsoft y fueron publicados en norteamérica y europa por Aksys Games. Los juegos, originalmente lanzados para Nintendo DS y 3DS, se encuentran porteados a PC y pueden ser comprados a través de <a href="https://store.steampowered.com/bundle/2638/Zero_Escape_Trilogy/">Steam.</a> Lastimosamente, estos juegos no cuentan con traducciones oficiales al español, por lo que tienen que ser jugados en inglés.</p>
+        </article>
+    </section>
+    <br>
+    <br>
+    <section>
+        <div class="row">
+            <div class="col-lg-3">
+                <img class="centrado" src="999.jpg" alt="999" width="200px">
+            </div>
+            <div class="col-lg-8">
+                <h2>9 Hours, 9 Persons, 9 Doors</h3>
+                <p class="justificado">O simplemente llamado "999", es el primer juego de la saga, lanzado para Nintendo DS en Japón el 10 de diciembre de 2009. La historia sigue a Junpei, que es abducido junto a otras 8 personas para participar en el "Juego Nonario", un juego letal que implica escapar de un lugar en el cual han sido atrapados, con brazaletes irremovibles que pueden causar su muerte en el caso de que desobedezcan las reglas. Deberán escapar antes que se cumplan las nueve horas desde que despertaron, utilizando los números únicos de sus brazaletes para abrir puertas, resolver acertijos y encontrar la salida, así como el porqué han sido encerrados.</p>
+                <div>
+                    <button id="boton1" class="izquierda" onclick="document.getElementById('oculto1').style.display = 'block';document.getElementById('boton1').style.display = 'none';document.getElementById('boton2').style.display = 'block';" style="display: block;">Mostrar Trailer</button>
+                    <button id="boton2" class="centrado"  onclick="document.getElementById('oculto1').style.display = 'none';document.getElementById('boton2').style.display = 'none';document.getElementById('boton1').style.display = 'block';" style="display: none;">Ocultar </button>
+                    <div id="oculto1" style="display: none;">
+                        <iframe class="centrado" width="560" height="315" src="https://www.youtube.com/embed/869azSXO1BI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-3">
+                <img class="centrado" src="vlr.png" alt="vlr" width="200px">
+            </div>
+            <div class="col-lg-8">
+                <h2>Virtue's Last Reward</h3>
+                <p class="justificado">El segundo juego de la saga, lanzada para la Nintendo 3DS el 16 de febrero de 2012 en Japón. Esta vez la historia sigue a Sigma Klim, que despierta en una facilidad junto a otras 8 personas y son forzados a jugar al "Juego Nonario: Edición Ambidex" donde para escapar son necesarios 9 puntos, que se deben conseguir a costa de una votación donde se tiene que elegir si confiar o traicionar a los demás participantes. Esta entrega tiene mucho más contenido que 999, contando además con una historia ramificada con 22 finales diferentes. </p>
+                <button id="boton3"  class="izquierda" onclick="document.getElementById('oculto2').style.display = 'block';document.getElementById('boton3').style.display = 'none';document.getElementById('boton4').style.display = 'block';" style="display: block;">Mostrar Trailer</button>
+                <button id="boton4"  class="centrado" onclick="document.getElementById('oculto2').style.display = 'none';document.getElementById('boton4').style.display = 'none';document.getElementById('boton3').style.display = 'block';" style="display: none;">Ocultar </button>
+                <div id="oculto2" style="display: none;">
+                    <iframe class="centrado" width="560" height="315" src="https://www.youtube.com/embed/aJxQzAisMt8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-3">
+                <img class="centrado" src="ztd.jpg" alt="ztd" width="200px">
+            </div>
+            <div class="col-lg-8">
+                <h2>Zero Time Dilemma</h3>
+                    <p class="justificado"> En esta tercera y última entrega de la trilogía lanzada en junio de 2016 seguimos a 3 grupos de 3 personas que son encerradas en una facilidad para jugar al "Juego de las decisiones" donde el líder de cada grupo (los 3 protagonistas: Carlos, Q y Diana) deben tomar decisiones difíciles para poder salir con vida del lugar. La única condición para escapar es que hayan 6 personas muertas. Los grupos están aislados entre ellos y deben confiar en la información dada por Zero, la mente maestra. Los participantes también tienen un reloj que les inyecta cada 90 minutos un anéstesico que no sólo los duerme sino que también les borra la memoria a corto plazo por lo que no recuerdan las últimas decisiones que tomaron. Esta entrega cuenta con 6 finales distintos, terminando la saga con el final verdadero. </p>
+                    <button id="boton5" class="izquierda" onclick="document.getElementById('oculto3').style.display = 'block';document.getElementById('boton5').style.display = 'none';document.getElementById('boton6').style.display = 'block';" style="display: block;">Mostrar Trailer</button>
+                    <button id="boton6" class="centrado" onclick="document.getElementById('oculto3').style.display = 'none';document.getElementById('boton6').style.display = 'none';document.getElementById('boton5').style.display = 'block';" style="display: none;">Ocultar </button>
+                    <div id="oculto3" style="display: none;">
+                        <iframe class="centrado" width="560" height="315" src="https://www.youtube.com/embed/Auxsi71SeRk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <section>
+        <h2 id="protagonistas">Protagonistas</h2>
+        <br>
+        <div class="container">
+        <div class="row">
+
+            <div class="col-lg-4" >
+            <img class="centrado" src="junpei.jpg" alt="junpei" height="200px">
+            <h3 class="textocentrado">Junpei</h3>
+            <p class="justificado2">Junpei es el protagonista de 9 Hours, 9 Persons, 9 Doors. Es abducido por Zero para participar en el juego nonario. Su brazalete lleva el número 5. Es el único personaje de 999 que utiliza su nombre verdadero, ya que el resto decidió usar nombres en código justo después de que Junpei se presentara. </p>
+            
+            </div>
+            <div class="col-lg-4"  >
+              
+                <img class="centrado" src="sigma.png" alt="sigma" height="200px">
+                <h3 class="textocentrado">Sigma</h3>
+                <p class="justificado2">Sigma es el protagonista de Virtue's Last Reward. Es forzado a participar en el juego nonario edición Ambidex. Para escapar hay que conseguir 9 puntos en el brazalete, y para eso hay que elegir si traicionar o aliarse con el resto de participantes. Dependiendo de tus decisiones la historia va tomando rumbos completamente diferentes y ese es aspecto más atractivo de la entrega. </p>
+             
+            </div>
+
+            <div class="col-lg-4" >
+                
+                <img class="centrado" src="qdianacarlos.jpg" alt="Carlos, Q y Diana" height="200px">
+                <h3 class="textocentrado">Carlos, Q y Diana</h3>
+                <p class="justificado2">Estos son los 3 protagonistas que manejamos en Zero Time Dilemma. En esta tercera entrega los participantes son encerrados en 3 grupos de 3 personas, siendo Carlos líder del grupo C, Diana del grupo D y Q del grupo Q. Estos personajes son los que tienen que tomar las decisiones que determinan la vida o la muerte de los participantes.</p>
+              
+            </div>
+            
+        </div>
+       </div>
+        <br>
+    </section>
+    <br>
+    <footer>
+        <div  id="footer">
+            <br>
+           
+            <a class="links" href="https://zeroescape.fandom.com/">Visita la wiki</a>
+            <a class="links" href="">Personajes</a>
+            <a class="links" href="">Los juegos</a>
+            <a class="links" href="https://en.wikipedia.org/wiki/Kotaro_Uchikoshi">Sobre el Autor</a>
+            <br>
+            <br>
+            <p id="disclaimer">Creado por Facundo Esteban Lemo para el curso "Yo Puedo Programar" de Junior Archievement Argentina.</p> 
+            <a href="https://www.instagram.com/facu_lemo02/">Seguime en Instagram</a> 
+            
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</html>
